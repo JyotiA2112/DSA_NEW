@@ -27,6 +27,10 @@ public class KthLargestNumber {
     }
 
     private int[] deleteMaxNode(int[] array) {
+        Map<Integer,Integer> map = new HashMap<>();
+        map.put(1,0);
+
+
         array[0] = array[array.length - 1];
         int[] newArray  = new int[array.length - 1];
         for(int i = 0; i < newArray.length; i++)

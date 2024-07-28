@@ -21,6 +21,7 @@ public static void findValidAnagram(List<String> words, List<String> queries)
             List list = map.get(String.valueOf(temp));
             list.add(word);
             map.put(String.valueOf(temp),list);
+
         }
         else
         {

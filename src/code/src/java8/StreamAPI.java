@@ -1,4 +1,4 @@
-package src.java8;
+package java8;
 
 public class StreamAPI {
 }

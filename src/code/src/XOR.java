@@ -10,7 +10,10 @@ public class XOR {
         }
         System.out.println(ans);
 
-        System.out.println(4^4);
+       // System.out.println(4^4);
+        System.out.println(1<<1); //2
+        System.out.println(1<<0); //1
+
 
     }
 }
