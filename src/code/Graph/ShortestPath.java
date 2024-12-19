@@ -6,7 +6,7 @@ import java.util.*;
 
 class Graph1<T>{
 
-    T t;
+    //T t;
     Map<T,List<Edge>> map = new Hashtable<>();
 
 
@@ -90,6 +90,7 @@ public class ShortestPath {
         while(!stack.isEmpty())
         {
             IntermediateNode node = stack.pop();
+            //stack.peek()
             List<Edge> edges = g.getEdge(node.s);
             for(Edge edge : edges)
             {

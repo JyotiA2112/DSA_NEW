@@ -77,6 +77,7 @@ class Solution {
     public static void main(String[] args) {
         Solution sn = new Solution();
         int[] nums = {1,2,2,3,3,3};
+        //Arrays.asList(nums);
         int[] ans = sn.topKFrequent(nums,2);
         System.out.println(ans);
     }
